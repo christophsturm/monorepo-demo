@@ -1,0 +1,23 @@
+{
+	"name": "mono-common",
+	"version": "1.0.0",
+	"main": "index.js",
+	"bin": {
+		"common-lint": "./bin/lint.sh",
+		"common-format": "./bin/format.sh"
+	},
+	"dependencies": {
+		"@types/eslint": "^8.56.10",
+		"typescript-eslint": "^8.0.0-alpha.20",
+		"eslint": "^9.7.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.43.0",
+		"eslint-plugin-svelte-runes": "^0.0.11",
+		"eslint-plugin-unused-imports": "^4.0.0",
+		"globals": "^15.0.0",
+		"svelte2tsx": "^0.7.13",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.2.6"
+	},
+	"type": "module"
+}

@@ -1,0 +1,4 @@
+packages:
+  - common
+  - svelte1
+  - svelte2
